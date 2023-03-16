@@ -22,7 +22,7 @@
 		
 		<tuxguitar-synth-vst-remote.client.vst.sdk>${basedir}/include</tuxguitar-synth-vst-remote.client.vst.sdk>
 		
-		<tuxguitar-synth-vst-remote.client.so.path>${parent.relativePath}/TuxGuitar-synth-vst-remote/src-client/</tuxguitar-synth-vst-remote.client.so.path>
+		<tuxguitar-synth-vst-remote.client.so.path>${project.parent.relativePath}/TuxGuitar-synth-vst-remote/src-client/</tuxguitar-synth-vst-remote.client.so.path>
 		<tuxguitar-synth-vst-remote.client.so.cxx>${tuxguitar.jni.cxx}</tuxguitar-synth-vst-remote.client.so.cxx>
 		<tuxguitar-synth-vst-remote.client.so.rm>${tuxguitar.jni.rm}</tuxguitar-synth-vst-remote.client.so.rm>
 		<tuxguitar-synth-vst-remote.client.so.cflags>-I${tuxguitar-synth-vst-remote.client.vst.sdk} -m64 -fPIC -fpermissive</tuxguitar-synth-vst-remote.client.so.cflags>
@@ -33,7 +33,7 @@
 		<tuxguitar-synth-vst-remote.client.so.binary.suffix>.bin</tuxguitar-synth-vst-remote.client.so.binary.suffix>
 		<tuxguitar-synth-vst-remote.client.so.binary.os>_GNULinux</tuxguitar-synth-vst-remote.client.so.binary.os>
 		
-		<tuxguitar-synth-vst-remote.client.dll.path>${parent.relativePath}/TuxGuitar-synth-vst-remote/src-client/</tuxguitar-synth-vst-remote.client.dll.path>
+		<tuxguitar-synth-vst-remote.client.dll.path>${project.parent.relativePath}/TuxGuitar-synth-vst-remote/src-client/</tuxguitar-synth-vst-remote.client.dll.path>
 		<tuxguitar-synth-vst-remote.client.dll.cxx>/usr/bin/i686-w64-mingw32-g++-win32</tuxguitar-synth-vst-remote.client.dll.cxx>
 		<tuxguitar-synth-vst-remote.client.dll.rm>${tuxguitar.jni.rm}</tuxguitar-synth-vst-remote.client.dll.rm>
 		<tuxguitar-synth-vst-remote.client.dll.cflags>-I${tuxguitar-synth-vst-remote.client.vst.sdk} -fPIC -fpermissive</tuxguitar-synth-vst-remote.client.dll.cflags>
@@ -46,7 +46,7 @@
 	</properties>
 	
 	<modules>
-		<module>${parent.relativePath}/TuxGuitar-synth-vst-remote</module>
+		<module>${project.parent.relativePath}/TuxGuitar-synth-vst-remote</module>
 	</modules>
 	
 	<build>
