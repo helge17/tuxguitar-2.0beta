@@ -1,5 +1,10 @@
-# TuxGuitar 2.0
-This fork revives some features built by the community. You are great!!! Go ahead, check the instructions in [INSTALL.md](INSTALL.md) and contribute :-)
+# TuxGuitar fork - ARCHIVED
+
+This fork was first released on https://gitlab.com/cycloptic/tuxguitar, but development stalled in 2019.
+
+Since then, many fixes and improvements have been ported to the current TuxGuitar version on https://github.com/helge17/tuxguitar.
+
+This repository is kept here as a reference in read-only state.
 
 ## What's new in v2.0:
 - Global style update with a new skin
